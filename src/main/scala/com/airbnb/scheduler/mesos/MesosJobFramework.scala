@@ -189,9 +189,6 @@ class MesosJobFramework @Inject()(
                   sufficient(x.getName) = true
                 }
               }
-              case y => {
-                log.info("not found." + y.getClass.getName)
-              }
 
                 // not sufficient, skip
             }
